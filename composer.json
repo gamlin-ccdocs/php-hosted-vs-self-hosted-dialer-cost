@@ -1,0 +1,33 @@
+{
+    "name": "vicistack/hosted-vs-self-hosted-dialer-cost",
+    "description": "The True Cost of Hosted Dialers vs Self-Hosted VICIdial (With Real Numbers)",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vicidial",
+        "asterisk",
+        "call-center",
+        "voip",
+        "predictive-dialer",
+        "hosted",
+        "self",
+        "hosted",
+        "dialer",
+        "cost"
+    ],
+    "homepage": "https://vicistack.com/blog/hosted-vs-self-hosted-dialer-cost/",
+    "authors": [
+        {
+            "name": "ViciStack",
+            "homepage": "https://vicistack.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViciStack\\HostedVsSelfHostedDialerCost\\": "src/"
+        }
+    }
+}
